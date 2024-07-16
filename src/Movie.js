@@ -4,7 +4,7 @@ function Movie ({coverImg, title, summary, genres}){
         <h2>{title}</h2>
         <p>{summary}</p>
         <ul>
-            {genres.map((genere) => <li key={genere}>{genere}</li>)}
+            {genres&&genres.map((genere) => <li key={genere}>{genere}</li>)}
         </ul>
     </div>;
 }
