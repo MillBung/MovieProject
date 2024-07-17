@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.js": "/MovieProject/static/js/main.c837b44b.js",
+    "main.css": "/MovieProject/static/css/main.71182ce0.css",
+    "main.js": "/MovieProject/static/js/main.26b34402.js",
     "index.html": "/MovieProject/index.html",
-    "main.c837b44b.js.map": "/MovieProject/static/js/main.c837b44b.js.map"
+    "main.71182ce0.css.map": "/MovieProject/static/css/main.71182ce0.css.map",
+    "main.26b34402.js.map": "/MovieProject/static/js/main.26b34402.js.map"
   },
   "entrypoints": [
-    "static/js/main.c837b44b.js"
+    "static/css/main.71182ce0.css",
+    "static/js/main.26b34402.js"
   ]
 }
