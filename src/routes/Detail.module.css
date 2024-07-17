@@ -1,0 +1,110 @@
+.loader {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+}
+.detailContainer {
+    display: flex;
+    justify-content: center; /* Centering the content horizontally */
+    align-items: center; /* Centering the content vertically */
+    padding: 20px;
+    background-color: #f4f4f9;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.detailContent {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    background-color: rgba(0, 0, 0, 0.7); /* Adding a dark overlay for better visibility */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    margin-top: 20px; /* Adding some margin at the top for spacing */
+}
+.coverImage {
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    margin-right: 20px;
+}
+.textContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 800px;
+}
+.detailTitle {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+.detailInfo {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #666;
+}
+.detailGenres {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.genre {
+    background: #ddd;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: black;
+}
+.detailDescription {
+    max-width: 800px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 20px;
+}
+/* Link to the movie's official page */
+.detailLink {
+    font-size: 18px;
+    color: #3498db;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.detailLink:hover {
+    text-decoration: underline;
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 768px) {
+    .detailContainer {
+        padding: 10px;
+    }
+
+    .coverImage {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .detailDescription {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .detailContent {
+        flex-direction: column;
+        align-items: center;
+    }
+}
